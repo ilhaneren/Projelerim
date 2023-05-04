@@ -1,0 +1,191 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
+char *remove_white_spaces(char *str)
+{
+    Değişkenler atanır.
+    while (Text dosyası içinde okunacak harf kalmayana kadar)
+    {
+        if (boşluk değilse)
+            diziye yaz.
+        değikeni arttır.
+    }
+    harfler bitince.
+    diziyi geri döndür.
+}
+void trim(char *s)
+{
+    long i = strlen(s) - 1;
+    while (i sıfırdan büuük olduğu sürece)
+    {
+        if (boşluk enter ve tab olmadıkça) i yi azalt.;
+        else çık.;
+    }
+    en sona \0 koy. 
+}
+int main(int argc, const char * argv[])
+{
+    dosya pointerı atanır.
+    3000 char boyutunda yer açılır.
+    diziler atanır.
+    char atanır.
+    sayaçlar ve değişkenler atanır.
+    dosya açılır.
+    süre sıfırlanır.
+    süre başlatılır.
+    if(dosya yoksa)
+    {
+        Ekrana "hata" yazdır.
+        programdan çık.
+    }
+    do
+    {
+        doyadaki harflerii diziye aktar.
+        k değişkenini arttır.
+    }
+    while (dosya sonu olmadığı sürece çalış.);
+    bütün dosyayı ekrana yazdır.
+    for(dosya bitene kadar.)
+    {
+        if(eğer tab ve boşluk varsa)
+        {
+            m'yi arttır l'yi azalt.
+        }
+    }
+    "Boşluksuz hali" diye ekrana yazdır.
+
+    ekrana boşluksuz halini yazdır.
+    //tek for döngüsü
+    değikenler atanır.
+    diziler atanır.
+    // main icin
+    while(i < 1000)
+    {
+        if(harflar sırasıyla for olursa)
+        {
+            sayacı arttır.
+            sayacı ekrana yazdır.
+            Big-o notasyonu o(n) olur.
+            diziye ata.
+        }
+        //iç içe for döngüsü
+        if (sırasıyla for içinde for yazısı var ise) {
+            ikinci sayacı arttır.
+            big-o notasyonu o(n'2) olur.
+            diziye ata.
+      }
+        //do-while döngüsü
+        if(sırasıyla "do" ve "{" var ise){
+            üçüncü sayacı arttır.
+            big-o notasyonu o(n) olur.
+            diziye ata.
+        }
+        //while döngüsü
+        if (sırasıyle while yazısı yazıyorsa.) {
+            dördüncü sayacı arttır.
+            big-o notasyonu o(n) olur.
+            diziye ata.
+        }
+        //recursive fonskiyon
+        if (sırasıyla fibon yazıyorsa.) {
+            beşinci sayacı arttır.
+            big-o notasyonu 2^n olur.
+            diziye ata.
+            
+        }
+        
+        if( sırasıyla int ama i den önce r yok ise.)
+        {
+            int sayacını arttır.
+            kelimeyi 3 harf sonradan okumaya devam et.
+
+            while(";" ve "(" yok ise)
+            {
+                if("["var ise)
+                {
+                    dizi sayısını arttır.
+                    kontrole sonraki harften devam et.
+                    değiken ata.
+                    while("]"görene kadar çalış.)
+                    {
+                        //printf("%c", str[controlInArray]);
+
+                        dizi ismini başka bir diziye ata.
+
+                        değikenler 1 arttırılır.
+                    }
+                    dizi sayısını ekrana yazdır.
+                    dizi isimlerini başka birdiziye eleman olarak ata.
+                    break at. 
+                }
+                else if(eğer virgül varsa)
+                {
+                    int sayacını arttır.
+                }
+                else if("(" veya ")" varsa)
+                {
+                    int sayacını azalt.
+                    döngüden çık.
+                }
+
+                
+                kontrol değişkeni arttır. 
+            }
+        }
+
+
+
+        i'yi arttır.
+    }
+    ekrana for sayısını yazdır.
+    ekrana iç içe for sayısını yazdır.
+    do while döngü sayısını ekrana yazdır.
+    while döngü sayısını ekrana yazdır.
+    zaman sayacını durdur.
+    sayacı ekrana yazdır.
+    
+        if(beşici sayac 0'dan büyükse.)
+        {
+            Big-O notasyonunu ekrana yazdır.
+        }
+        else if(ikinci sayac 0'dan büyükse.){
+            Big-O notasyonunu ekrana yazdır.
+        }
+        else if (sayac 0'dan büyükse)
+        {
+            Big-O notasyonunu ekrana yazdır.
+        }
+
+    int değikeni sayacını ekrana yazdır.
+    dizi sayısını ekrana ayzdır.
+
+    if(dizi sayısı 0'dan büyükse.)
+        {
+            ekrana "yer karmasikligi =  4 * (" yazdır.
+            for(dizi sayısına eşitlenene kadar.)
+            {
+//                dizi isimlerini ekrana yazdır.
+                if(dizi sayısının 1 eksiği i değişkenine eşitse)
+                    araya " + " ekleyin.
+            if(beşici sayac 0'dan büyükse.)
+            {
+               ekrana "2^n" yazdır.
+            }
+            else if(ikinci sayaç 0'dan büyükse.){
+               ekrana "n^2" yazdır.
+            }
+            else if(sayaç 0'dan büyükse.){
+                ekrana "n" yazdır.
+            }
+            
+            ekrana 4 * int sayacının değerini yazdır.
+            }}
+        else{
+            ekrana "yer karmasikligi = n + 4*int sayacının değerini yazdır.
+        }
+        dosyayı kapat.
+
+    return 0;
+    
+}

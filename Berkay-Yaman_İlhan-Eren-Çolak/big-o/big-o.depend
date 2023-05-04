@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1647793001 source:c:\users\ilhan\desktop\projeler\big-o\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
