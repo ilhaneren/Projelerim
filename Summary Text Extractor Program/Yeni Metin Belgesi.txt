@@ -1,0 +1,122 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{YAZILIM LABORATUVARI II PROJE 1 RAPORU\\
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} MERT CAN ŞAHİN}
+\IEEEauthorblockA{\textit{190201090} \\
+\textit{}\\
+
+}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} İLHAN EREN COLAK}
+\IEEEauthorblockA{\textit{200201074} \\
+\textit{}\\
+
+}
+\and
+
+}
+
+\maketitle
+
+
+\section{ÖZET}
+Bu rapor Yazılım Laboratuvarı-2 Dersinin 1.Projesisini açıklamak ve sunumunu gerçekleştirmek amacıyla oluşturulmuştur.
+Raporda projenin tanımı , isterleri , yapım aşaması , kullanılan araç ve yöntemler , kod parçacıkları vb. bulunmaktadır.Proje aşamasında yararlanılan kaynaklar raporun son bölümünde bulunmaktadır.
+
+\section{GİRİŞ}
+
+
+Bu projenin amacı iki veya daha fazla metnin uygun bir şekilde birleştirilmesi problemi için yeni algoritmalar geliştirmektir. Devamında bunları görsel bir 
+arayüzle sunulmuştur.
+
+
+\section{ILERLEYIS - YONTEM}
+\subsection{Baslangic}\label{AA}
+Projeye başlamadan önce Projeye başlamadan önce algoritmayı oluşturmak için biraz fikir alışverişi yaptık. Sonrasında Java dilini hangi arayüz ile birleştireceğimizi düşünüp Java Swing'i seçtik. Veritabanı olarak da MongoDB'yi kullandık.
+
+\subsection{Ilerleyis}
+Kodlamaya ilk olarak algoritmayı oluşturmakla başladık. Bir süremiz program ile veritabanını birleştirmekle geçti. Veritabanını birleştirirken birkaç hata ile karşılaştık bunları farklı kaynakları araştırarak çözdük. Arayüz için Java Swing'i seçmemizin sebebi bu verileri veritabanına kaydetmek diğer arayüz programlarına kıyasla daha senkronize olduğu içindi.
+
+
+\section{AKIŞ ŞEMASI}
+
+\begin{left}
+
+\subsection{Algoritmanın Akış Şeması}
+
+\includegraphics[scale=0.70]{Screenshot_3.jpg}  
+
+
+\subsection{Programın Akış Şeması}
+
+\includegraphics[scale=0.60]{Screenshot_1.png}  
+
+\end{left}
+
+
+
+\section{DENEYSEL SONUCLAR}
+
+\begin{center}
+    
+\end{center}
+\subsection{Program Arayüzü}
+\includegraphics[scale=0.70]{image.png}  
+\newline
+Bu resimde programın arayüzünün görüntüsü verilmiştir. Görüldüğü üzere 4 buton, 1 metin alanı, toplam süre ve yazılmış kelimelerin tutulduğu liste bulunmaktadır.
+\clearpage
+\begin{center}
+\subsection{Örnekler}
+\newline
+\newline
+\includegraphics[scale=0.75]{ima3ge.png}   
+\newline
+\newline
+\includegraphics[scale=0.75]{2.png}
+\newline
+\newline
+Bu resimlerde örnek kelimelerin birleştirilmesi ve toplam süre gösterilmiştir.
+\newpage
+
+\newline
+\newline
+\subsection{Veritabanına Kayıt} 
+\newline
+\newline
+\includegraphics[scale=0.75]{4.png} 
+\newline
+\newline
+Bu resimde programda birleşirilen kelimelerin veritabanına toplam süreleri ve kaydedilmiş şekilleri gösterilmiştir.
+\newline
+\newline
+\end{center}
+
+\clearpage
+
+\section{SONUÇ}
+
+Projeyi yaparken Java uygulamalarını, programın arayüzde gösterimini ve bilgileri veritabanına kaydetmeyi öğrendik. Bu proje için birkaç farklı uygulamayı birbirine bağlamamız gerekti ve çoğu zamanımız da oluşan hataları çözmekle geçti. Projeyi isterlerine uygun ve kullanışlı bir şekilde yaptığımızı düşünüyoruz.
+
+\bigskip
+\bigskip
+
+\begin{thebibliography}{00}
+\bibitem{b1} $ https://stackoverflow.com/$
+\bibitem{b2} $https://www.oracle.com/tr/$
+\bibitem{b3} $https://www.mongodb.com/$
+\end{thebibliography}
+\vspace{12pt}
+\end{document}
